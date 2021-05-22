@@ -1,0 +1,31 @@
+.fresh-banner {
+    padding: 0 60px;
+    margin-top: 150px;
+    @include mainFont();
+
+    &__header {
+        font-size: $headerFontsize;
+        font-weight: 800;
+    }
+    
+    &__subheader {
+        margin-top: 20px;
+    }
+
+    &__btn {
+        border: none;
+        padding: 10px 15px;
+        background-color: $freshHoverColor;
+        color: #ffffff;
+        box-shadow: 2px 2px 4px #9a9a9c;
+    }
+
+    &__icon {
+        margin: 200px auto 40px;
+    }
+
+    &__bg-img {
+        top: -150px;
+        z-index: -1;
+    }
+}

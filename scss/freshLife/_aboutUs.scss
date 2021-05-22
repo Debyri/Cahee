@@ -1,0 +1,14 @@
+.about-us {
+    background-color: #00C4C4;
+    color: #ffffff;
+    @include mainFont(800);
+
+    &__header {
+        font-size: $headerFontsize;
+    }
+
+    &__description {
+        font-weight: 300;
+        font-size: 0.9rem;
+    }
+}
