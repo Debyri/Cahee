@@ -1,9 +1,9 @@
 .header {   
-    height: 130px;
+    height: 100px;
     padding: 0 60px;
 
     &__logo {
-        font-family: 'Pacifico', sans-serif;
+        font-family: $logoFont;
         font-size: 35px;
     }
 }

@@ -9,35 +9,35 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700;800&display=swap"
         rel="stylesheet">
     <title>Cahee</title>
 </head>
 
 <body>
     <div class="fresh-life-wrapper container-fluid p-0">
-        <header class="header d-flex justify-content-between align-items-center m-0">
+        <header id="home" class="header d-flex justify-content-between align-items-center m-0">
             <div class="header__logo">
                 <span class="logo-text text-capitalize">cahee</span>
             </div>
             <ul class="nav col-6 justify-content-evenly">
                 <li class="nav__btn ">
-                    <a href="" class="nav__btn-link text-decoration-none">home</a>
+                    <a href="#home" class="nav__btn-link text-decoration-none">home</a>
                 </li>
                 <li class="nav__btn">
-                    <a href="" class="nav__btn-link text-decoration-none">about</a>
+                    <a href="#aboutUs" class="nav__btn-link text-decoration-none">about</a>
                 </li>
                 <li class="nav__btn">
-                    <a href="" class="nav__btn-link text-decoration-none">services</a>
+                    <a href="#ourServices" class="nav__btn-link text-decoration-none">services</a>
                 </li>
                 <li class="nav__btn">
-                    <a href="" class="nav__btn-link text-decoration-none">gallery</a>
+                    <a href="#gallery" class="nav__btn-link text-decoration-none">gallery</a>
                 </li>
                 <li class="nav__btn">
-                    <a href="" class="nav__btn-link text-decoration-none">blog</a>
+                    <a href="#blog" class="nav__btn-link text-decoration-none">blog</a>
                 </li>
                 <li class="nav__btn">
-                    <a href="" class="nav__btn-link text-decoration-none">contact</a>
+                    <a href="#contactUs" class="nav__btn-link text-decoration-none">contact</a>
                 </li>
             </ul>
         </header>
@@ -55,7 +55,7 @@
 
         </section><img src="./assets/images/freshLife/cover-img.png" alt=""
             class="fresh-banner__bg-img position-absolute">
-        <section class="about-us row align-items-center g-3 m-0">
+        <section id="aboutUs" class="about-us row align-items-center g-3 m-0">
             <img src="./assets/images/freshLife/about-us-img.png" alt="cup" class="about-us__img col-6">
             <div class="about-us__text col-6">
                 <h2 class="about-us__header text-capitalize col-6">about us</h2>
@@ -70,6 +70,91 @@
                 </p>
             </div>
         </section>
+    </div>
+    <div class="blog-container pt-5 pb-5">
+        <div class="blog container-fluid justify-content-center">
+            <header class="blog-header-wrapper">
+                <div class="row">
+                    <h2 class="blog__header text-center text-capitalize col-12">blog</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <p class="blog__header-text text-center col-5 mt-3">
+                        Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
+                    </p>
+                </div>
+            </header>
+            <section class="row justify-content-center mt-5">
+                <section class="item col-3 me-4">
+                    <time class="app-item-date text-uppercase d-flex flex-column align-items-center justify-content-center">
+                        <span class="date">20</span><span>nov</span>
+                    </time>
+                    <h4 class="item__caption">Green Smoothies Too Much of a Good Thing</h4>
+                    <p class="item__author">By Auskteez <time class="author-date">2 hours ago</time></p>
+                </section>
+                <section class="item col-3 me-4">
+                    <time class="item__date text-uppercase d-flex flex-column align-items-center justify-content-center">
+                        <span class="date">14</span><span>nov</span>
+                    </time>
+                    <h4 class="item__caption">Growing Food and a “Thirst” for Innovation</h4>
+                    <p class="tem__author">By Auskteez <time class="author-date">3 hours ago</time></p>
+                </section>
+                <section class="item col-3 me-4">
+                    <time class="item__date text-uppercase d-flex flex-column align-items-center justify-content-center">
+                        <span class="date">10</span><span>nov</span>
+                    </time>
+                    <h4 class="item__caption">Pesticides & Food: What You Need to Know</h4>
+                    <p class="item__author">By Auskteez <time class="author-date">6 hours ago</time></p>
+                </section>
+            </section>
+            <div class="row justify-content-center">
+                <button class="blog__button pt-2 pb-2 mt-5 text-uppercase">view more</button>
+            </div>
+        </div>
+    </div>
+    <div id="contactUs" class="contact-us">
+        <section class="contact-us-wrapper container-fluid">
+            <header class="row col-12 justify-content-center">
+                <h2 class="contact-us__header text-center p-0">contact</h2>
+                <p class="contact-us__subheader text-center p-0 col-4">
+                    For new projects, ideas, business or anything
+                    you'd like to discuss, contact with me!
+                </p>
+            </header>
+            <main class="contact-us__content row col-12 justify-content-evenly">
+                <form action="" method="GET" class="content__form col-4">
+                    <input type="text" placeholder="Your name..." class="content__form-input col-12">
+                    <input type="email" placeholder="Your email..." class="content__form-input col-12">
+                    <input type="tel" placeholder="Your phone number..." class="content__form-input col-12">
+                    <textarea name="" id="" cols="20" rows="10"
+                        class="content__form-input content__form-textarea col-12">Your messege...</textarea>
+                </form>
+                <address class="info col-5">
+                    <div class="info--layout">
+                        <h4 class="info__header">address</h4>
+                        <a href="https://www.google.com/maps/search/123+City+name,+Street,+City,+Country/@25.0469186,55.21408,15z"
+                            class="info__link info__link--black">123 City name, Street, City, Country</a>
+                    </div>
+                    <div class="info--layout">
+                        <h4 class="info__header">address</h4>
+                        <a href="mailto:cahee@domain.com" class="info__link info__link--black">cahee@domain.com</a>
+                    </div>
+                    <div class="info--layout">
+                        <h4 class="info__header">phone</h4>
+                        <a href="tel:+012 345 6789" class="info__link info__link--black">+012 345 6789</a>
+                    </div>
+                </address>
+            </main>
+        </section>
+        <footer class="footer d-flex justify-content-between align-content-center align-items-center">
+            <div class="footer__copiright"> &copy;2015 Company. All right reserved.</div>
+            <div class="footer__logo "><a href="#home" class="footer__link">cahee</a></div>
+            <address class="footer__author d-inline-block m-0">
+                Made with <span class="red-text text-danger fw-bold">love</span> by <a rel="author" href="#"
+                    class="footer__link footer__link--grey">Auskteez</a>
+            </address>
+        </footer>
     </div>
 </body>
 
