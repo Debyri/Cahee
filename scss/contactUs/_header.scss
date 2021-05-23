@@ -1,0 +1,14 @@
+.contact-us {
+    &__header {
+        margin-top: 50px;
+        font-size: 4rem;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+
+    &__subheader {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,28 @@
+.content__form {
+
+    &-input {
+        margin-top: 20px;
+        background-color: rgba(0, 196, 196, .5);
+        color: #ffffff;
+        border: none;
+        padding: 10px;
+        outline: none;
+
+        &:nth-child(1) {
+            margin: 0;
+        }
+
+        &::placeholder {
+            color: #ffffff;
+        }
+
+        &:focus {
+            background-color: #00c4c4;
+            border-left: 3px solid #355b82;
+            padding-left: 8px;
+        }
+    }
+    &-textarea {
+        height: 150px;
+    }
+}

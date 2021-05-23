@@ -2,10 +2,16 @@
     font-family: 'Pacifico';
     src: url(/Users/yuriirohachevskyi/Documents/Beetroot/git/Cahee/assets/fonts/pacifico/Pacifico.ttf);
 }
-@import 'freshLife/variables';
-@import 'freshLife/mixin';
+@import 'variables';
+@import 'mixin';
 // Fresh Life Section 
 @import 'freshLife/header';
 @import 'freshLife/nav';
 @import 'freshLife/freshBanner';
-@import 'freshLife/aboutUs'
+@import 'freshLife/aboutUs';
+// Contact Us 
+@import 'contactUs/wrapper';
+@import 'contactUs/header';
+@import 'contactUs/form';
+@import 'contactUs/info';
+@import 'contactUs/footer';
