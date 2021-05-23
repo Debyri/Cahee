@@ -70,6 +70,85 @@
   font-size: 0.9rem;
 }
 
+.blog-wrapper {
+  color: #ffffff;
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  background-color: #b07cf7;
+  height: 100vh;
+}
+
+.blog__header {
+  font-weight: 700;
+  font-size: 50px;
+}
+.blog__subheader {
+  font-size: 16px;
+  font-weight: 300px;
+  width: 45%;
+}
+
+.item-wrapper {
+  padding: 0 100px 0;
+  margin: 0 auto;
+}
+
+.item {
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: inset 0px -160px 68px -64px rgba(0, 0, 0, 0.75), 0 2px 2px 0px rgba(0, 0, 0, 0.75);
+  transition: ease-in-out 0.2s;
+  margin: 0 10px;
+  background-position: bottom;
+  background-size: cover;
+}
+.item:nth-child(1) {
+  background-image: url(https://debyri.github.io/lesson10homework/project2/assets/images/img1.jpg);
+}
+.item:nth-child(2) {
+  background-image: url(https://debyri.github.io/lesson10homework/project2/assets/images/img2.jpg);
+}
+.item:nth-child(3) {
+  background-image: url(https://debyri.github.io/lesson10homework/project2/assets/images/img3.jpg);
+}
+.item:hover {
+  box-shadow: inset 0px -160px 68px -64px rgba(0, 0, 0, 0.75), 0 3px 3px 0px rgba(0, 0, 0, 0.75);
+}
+.item__date {
+  padding-bottom: 5px;
+  line-height: 1;
+  font-size: 20px;
+  font-weight: 800;
+  width: 65px;
+  height: 65px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10%;
+}
+.item__date .date {
+  font-size: 30px;
+}
+.item__caption {
+  width: 90%;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 100px 0 0;
+}
+.item__author {
+  margin: 10px 0 0;
+  color: #9c9c9c;
+}
+.item__author .author__date::before {
+  content: " - ";
+}
+
+.blog__button {
+  border: none;
+  padding: 10px 15px;
+  background-color: #f72b3b;
+  color: #ffffff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
 .contact-us-wrapper {
   background-image: url(https://debyri.github.io/-form-homework/project1/assets/images/main-bg.png);
   background-position: center;

@@ -1,0 +1,18 @@
+.blog-wrapper {
+    color: #ffffff;
+    @include mainFont(400);
+    background-color: #b07cf7;
+    height: 100vh;
+}
+
+.blog {
+    &__header {
+        @include headerStyle (700);
+    }
+
+    &__subheader {
+        font-size: 16px;
+        font-weight: 300px;
+        width: 45%;
+    }
+}
