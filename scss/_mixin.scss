@@ -5,6 +5,7 @@
 @mixin headerStyle ($fontWeight) {
     font-weight: $fontWeight;
     font-size: 50px;
+    text-transform: capitalize;
 }
 
 @mixin button ($color, $boxShadow: black) {
