@@ -1,7 +1,5 @@
 .contact-us-wrapper {
-    background-image: url(https://debyri.github.io/-form-homework/project1/assets/images/main-bg.png);
-    background-position: center;
-    background-size: cover;
+    @include bgPosition ('/images/contactUs/main-bg.png');
     @include mainFont ();
     height: 620px;
     width: 100%;

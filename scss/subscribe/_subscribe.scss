@@ -1,0 +1,32 @@
+.subscribe{
+    &__wrapper {
+        @include bgPosition ('/images/subscribe/subscribe-bg.png');
+        padding: 80px 120px;
+    }
+
+    &__header {
+        @include headerStyle (700);
+    }
+
+    &__subheader {
+        margin-top: $mt;
+        @include subheaderStyle ();
+    }
+    &__form {
+        margin-top: $mt;
+    }
+
+    &__input {
+        @include mainFont ();
+        @include inputReset;
+        border: 1px solid #000000;
+        border-radius: 0;
+        background-color: rgba(0,0,0,0);
+        padding: 8px;
+    }
+
+    &__btn {
+        @include button (#96b92c, rgba(0,0,0,0.3));
+        
+    }
+}

@@ -7,7 +7,11 @@
     font-size: 60px;
     text-transform: capitalize;
 }
-
+@mixin subheaderStyle ($color: #000000) {
+    font-weight: 400;
+    font-size: 14px;
+    color: $color;
+}
 @mixin button ($color, $boxShadow: black) {
     font-family: 'Raleway', serif;
     text-transform: uppercase;
@@ -16,4 +20,16 @@
     background-color: $color;
     color: #ffffff;
     box-shadow: 2px 2px 4px $boxShadow;
+}
+
+@mixin bgPosition ($imageLink) {
+    background-image: url($imageLink);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@mixin inputReset {
+    border: none;
+    outline: none;
 }
