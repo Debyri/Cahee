@@ -11,19 +11,19 @@
     grid-column: span 2 / auto;
 
     &:nth-child(1) {
-        @include bgPosition ('/images/gallery/img.png');
+        @include bgPosition ('../../images/gallery/img.png');
     }
     &:nth-child(2) {
-        @include bgPosition ('/images/gallery/img1.png');
+        @include bgPosition ('../../images/gallery/img1.png');
     }
     &:nth-child(3) {
-        @include bgPosition ('/images/gallery/img2.png');
+        @include bgPosition ('../../images/gallery/img2.png');
     }
     &:nth-child(4) {
-        @include bgPosition ('/images/gallery/img3.png');
+        @include bgPosition ('/../..images/gallery/img3.png');
     }
     &:nth-child(5) {
-        @include bgPosition ('/images/gallery/img4.png');
+        @include bgPosition ('../../images/gallery/img4.png');
     }
 
     &--tall {

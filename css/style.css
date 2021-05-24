@@ -243,31 +243,31 @@
   grid-column: span 2/auto;
 }
 .grid__card:nth-child(1) {
-  background-image: url("Cahee/images/gallery/img.png");
+  background-image: url("../../images/gallery/img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(2) {
-  background-image: url("/images/gallery/img1.png");
+  background-image: url("../../images/gallery/img1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(3) {
-  background-image: url("/images/gallery/img2.png");
+  background-image: url("../../images/gallery/img2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(4) {
-  background-image: url("/images/gallery/img3.png");
+  background-image: url("/../..images/gallery/img3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(5) {
-  background-image: url("/images/gallery/img4.png");
+  background-image: url("../../images/gallery/img4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,7 +292,7 @@
 }
 
 .subscribe__wrapper {
-  background-image: url("/images/subscribe/subscribe-bg.png");
+  background-image: url("../../images/subscribe/subscribe-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
