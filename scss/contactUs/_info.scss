@@ -1,7 +1,7 @@
 .info {
     margin-left: 80px;
     &--layout {
-        margin-top: 15px;
+        margin-top: $mt;
 
         &:first-of-type {
             margin: 0;

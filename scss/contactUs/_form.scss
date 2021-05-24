@@ -1,12 +1,11 @@
 .content__form {
 
     &-input {
-        margin-top: 20px;
+        @include inputReset;
+        margin-top: $mt;
         background-color: rgba(0, 196, 196, .5);
         color: #ffffff;
-        border: none;
         padding: 10px;
-        outline: none;
 
         &:nth-child(1) {
             margin: 0;
