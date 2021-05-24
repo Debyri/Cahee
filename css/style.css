@@ -292,7 +292,7 @@
 }
 
 .subscribe__wrapper {
-  background-image: url("../../images/subscribe/subscribe-bg.png");
+  background-image: url("../images/subscribe/subscribe-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
