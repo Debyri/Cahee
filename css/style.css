@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Pacifico";
-  src: url(/Users/yuriirohachevskyi/Documents/Beetroot/git/Cahee/assets/fonts/pacifico/Pacifico.ttf);
+  src: url(../assets/fonts/pacifico/Pacifico.ttf);
 }
 .header {
   height: 100px;
@@ -243,31 +243,31 @@
   grid-column: span 2/auto;
 }
 .grid__card:nth-child(1) {
-  background-image: url("../../images/gallery/img.png");
+  background-image: url("../images/gallery/img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(2) {
-  background-image: url("../../images/gallery/img1.png");
+  background-image: url("../images/gallery/img1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(3) {
-  background-image: url("../../images/gallery/img2.png");
+  background-image: url("../images/gallery/img2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(4) {
-  background-image: url("/../..images/gallery/img3.png");
+  background-image: url("../images/gallery/img3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .grid__card:nth-child(5) {
-  background-image: url("../../images/gallery/img4.png");
+  background-image: url("../images/gallery/img4.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
