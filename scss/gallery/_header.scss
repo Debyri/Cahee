@@ -1,0 +1,23 @@
+.gallery {
+    background-color: #ffe92f;
+    height: 1080px;
+
+
+    &__header-wrapper {
+        margin: 0 auto;
+        padding: 60px 120px 0;
+        background-color: #ffe92f;
+    }
+
+    &__header {
+        @include headerStyle (700);
+        color: #000000;
+        text-align: center;
+    }
+
+    &__subheader {
+        margin-top: 20px;
+        text-align: center;
+        padding: 0 15px;
+    }
+}

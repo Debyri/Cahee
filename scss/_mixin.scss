@@ -4,14 +4,16 @@
 }
 @mixin headerStyle ($fontWeight) {
     font-weight: $fontWeight;
-    font-size: 50px;
+    font-size: 60px;
     text-transform: capitalize;
 }
 
 @mixin button ($color, $boxShadow: black) {
+    font-family: 'Raleway', serif;
+    text-transform: uppercase;
     border: none;
-        padding: 10px 15px;
-        background-color: $color;
-        color: #ffffff;
-        box-shadow: 2px 2px 4px $boxShadow;
+    padding: 10px 15px;
+    background-color: $color;
+    color: #ffffff;
+    box-shadow: 2px 2px 4px $boxShadow;
 }
