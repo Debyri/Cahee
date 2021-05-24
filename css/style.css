@@ -243,7 +243,7 @@
   grid-column: span 2/auto;
 }
 .grid__card:nth-child(1) {
-  background-image: url("/images/gallery/img.png");
+  background-image: url("Cahee/images/gallery/img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
